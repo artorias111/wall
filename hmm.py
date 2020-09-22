@@ -14,7 +14,7 @@ if re.get(url).status_code==200:
     a=re.get(url)
     x=bs(a.text,'html.parser')
     m=x.find_all('a')
-    print(m)
+
 
 else:
     print("The pexels website is down right now, please try later")
