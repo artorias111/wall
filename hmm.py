@@ -10,11 +10,6 @@ from time import sleep
 
 url=r'https://www.pexels.com/search/desktop%20wallpaper/'
 
-if re.get(url).status_code==200:
-    a=re.get(url)
-    x=bs(a.text,'html.parser')
-    m=x.find_all('a')
-
 
 else:
     print("The pexels website is down right now, please try later")
