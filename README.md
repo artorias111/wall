@@ -1,5 +1,8 @@
 # wall
 Welcome to wall!
 
-Get a random beautiful stock wallpaper from unsplash to replace your boring old wallpaper.
-(In progress)
+Just run the python file to download unsplash's daily wallpaper into your computer.
+
+Requirements:
+requests (https://pypi.org/project/requests/)
+Install using 'pip install requests'
